@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+// Colors
+//#FFFFFF;
+//#79ADDC;
+//#000000
+
+// @font-face {
+//   font-family: GillSans;
+//   src: url(../css/fonts/GillSans.ttc);
+// }
+@font-face {
+  font-family: ProximaNova;
+  src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@font-face {
+  font-family: ProximaNovaThin;
+  src: url(../css/fonts/Proxima_Nova_Extra_Condensed_Thin.otf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: ProximaNova;
+}
+
+p,
+a,
+footer {
+  font-family: $GillSans;
+  font-weight: bold;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+#app {
+  max-width: $content-width;
+  margin: 0 auto;
+  // min-height: 200px;
+  // background-color: coral;
+}
+
+// @media screen and (max-width: 1140px) {
+//   .homePictures {
+//     background-color: red;
+//   }
+// }

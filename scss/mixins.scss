@@ -1,0 +1,21 @@
+@mixin nav-hr {
+  margin: 0 auto;
+  margin-bottom: 69.5px;
+  max-width: 980px;
+  //   width: 980px;
+}
+@mixin nav-black {
+  background-color: #000000;
+  border: 1px solid #000000;
+}
+
+@mixin div-images {
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+@mixin image-sizes($tourPicsWidth: 236px, $tourPicsHeight: 304px) {
+  width: $tourPicsWidth;
+  height: $tourPicsHeight;
+}

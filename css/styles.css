@@ -1,0 +1,641 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@font-face {
+  font-family: ProximaNovaThin;
+  src: url(../css/fonts/Proxima_Nova_Extra_Condensed_Thin.otf);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: ProximaNova;
+}
+
+p,
+a,
+footer {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+#app {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+nav {
+  max-width: 980px;
+  margin: 0 auto;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 20.5px;
+}
+nav .links .logo {
+  width: 136px;
+  height: 45px;
+  background-color: coral;
+}
+nav .links a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #000000;
+  margin-right: 21px;
+}
+
+.nav-hr-white {
+  margin: 0 auto;
+  margin-bottom: 69.5px;
+  max-width: 980px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.nav-hr-black {
+  margin: 0 auto;
+  margin-bottom: 69.5px;
+  max-width: 980px;
+  background-color: #000000;
+  border: 1px solid #000000;
+}
+
+footer {
+  background-color: #79addc;
+  height: 100px;
+  color: #ffffff;
+}
+footer .footer-content {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 5px;
+}
+
+.homeBanner {
+  height: 500px;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+}
+.homeBanner a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.homeBanner h1 {
+  font-size: 60px;
+  margin-bottom: 37px;
+}
+.homeBanner .heroText {
+  font-size: 20px;
+  margin-bottom: 48px;
+}
+
+.homePictures {
+  margin: 0 auto;
+  top: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+@media screen and (max-width: 612px) {
+  .homePictures {
+    flex-direction: column;
+  }
+  .homePictures .tourPics1,
+.homePictures .tourPics2,
+.homePictures .tourPics3,
+.homePictures .tourPics4,
+.homePictures .tourPics5,
+.homePictures .tourPics6,
+.homePictures .tourPics7,
+.homePictures .tourPics8,
+.homePictures .tourPics9 {
+    margin-bottom: 55px;
+  }
+}
+form {
+  margin: 40px;
+}
+form h1 {
+  font-size: 60px;
+}
+form input,
+form label {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+form input {
+  background-color: #ffffff;
+  border: 2px solid #79addc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+form .box1 {
+  height: 58px;
+  width: 45%;
+  margin-right: 21px;
+}
+form .box2 {
+  height: 58px;
+  width: 55%;
+}
+form .box3 {
+  height: 58px;
+  width: 88%;
+  margin-left: 24px;
+}
+form .box4 {
+  width: 103px;
+  height: 58px;
+}
+form .box5 {
+  width: 100%;
+  height: 192px;
+}
+form .group1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+form .acrBoxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+form .acrBoxes label {
+  margin-right: 30px;
+}
+
+button {
+  color: #ffffff;
+  background-color: #79addc;
+  border-style: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+}
+button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.readMore {
+  height: 40px;
+  width: 122px;
+}
+
+.learnMore {
+  height: 40px;
+  width: 133px;
+  border-radius: 30px;
+}
+
+.bookNow {
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+.submitBox {
+  color: #ffffff;
+  background-color: #79addc;
+  border-style: none;
+  border-radius: 30px;
+  width: 100%;
+  height: 60.59px;
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.tourHero {
+  max-width: 980px;
+  height: 200px;
+  margin-bottom: 48px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tours-header.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tourHero h1 {
+  font-size: 70px;
+  letter-spacing: 5px;
+}
+
+.tourImages {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 55px;
+}
+
+@media screen and (max-width: 608px) {
+  .tourImages {
+    flex-direction: column;
+  }
+  .tourImages .tourPics1,
+.tourImages .tourPics2,
+.tourImages .tourPics3,
+.tourImages .tourPics4,
+.tourImages .tourPics5,
+.tourImages .tourPics6,
+.tourImages .tourPics7,
+.tourImages .tourPics8,
+.tourImages .tourPics9 {
+    margin-bottom: 55px;
+  }
+}
+.tour-Package-Hero {
+  max-width: 980px;
+  height: 413px;
+  margin-bottom: 40px;
+}
+.tour-Package-Hero .tourPics1,
+.tour-Package-Hero .tourPics2,
+.tour-Package-Hero .tourPics3,
+.tour-Package-Hero .tourPics4,
+.tour-Package-Hero .tourPics5,
+.tour-Package-Hero .tourPics6,
+.tour-Package-Hero .tourPics7,
+.tour-Package-Hero .tourPics8,
+.tour-Package-Hero .tourPics9 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.tour-Package-Hero .tourPics1 h1,
+.tour-Package-Hero .tourPics2 h1,
+.tour-Package-Hero .tourPics3 h1,
+.tour-Package-Hero .tourPics4 h1,
+.tour-Package-Hero .tourPics5 h1,
+.tour-Package-Hero .tourPics6 h1,
+.tour-Package-Hero .tourPics7 h1,
+.tour-Package-Hero .tourPics8 h1,
+.tour-Package-Hero .tourPics9 h1 {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+.tour-Package-Hero .tourPics1 h2,
+.tour-Package-Hero .tourPics2 h2,
+.tour-Package-Hero .tourPics3 h2,
+.tour-Package-Hero .tourPics4 h2,
+.tour-Package-Hero .tourPics5 h2,
+.tour-Package-Hero .tourPics6 h2,
+.tour-Package-Hero .tourPics7 h2,
+.tour-Package-Hero .tourPics8 h2,
+.tour-Package-Hero .tourPics9 h2 {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  margin-bottom: 0;
+}
+
+.package-Images {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.package-Images .package-Img1,
+.package-Images .package-Img2,
+.package-Images .package-Img3 {
+  width: 298px;
+  height: 347px;
+}
+
+.tourHeader h1 {
+  font-size: 60px;
+}
+.tourHeader hr {
+  background-color: #000000;
+  border: 1px solid #000000;
+  width: 171px;
+}
+.tourHeader p {
+  margin-bottom: 80px;
+}
+
+.tourPics1,
+.tourPics2,
+.tourPics3,
+.tourPics4,
+.tourPics5,
+.tourPics6,
+.tourPics7,
+.tourPics8,
+.tourPics9 {
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  width: 236px;
+  height: 304px;
+  text-align: center;
+  padding-top: 37px;
+}
+.tourPics1 h1,
+.tourPics2 h1,
+.tourPics3 h1,
+.tourPics4 h1,
+.tourPics5 h1,
+.tourPics6 h1,
+.tourPics7 h1,
+.tourPics8 h1,
+.tourPics9 h1 {
+  font-size: 60px;
+}
+.tourPics1 h2,
+.tourPics2 h2,
+.tourPics3 h2,
+.tourPics4 h2,
+.tourPics5 h2,
+.tourPics6 h2,
+.tourPics7 h2,
+.tourPics8 h2,
+.tourPics9 h2 {
+  font-size: 30px;
+  margin-bottom: 37px;
+}
+
+.tourPics1 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+}
+
+.tourPics2 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+}
+
+.tourPics3 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+}
+
+.tourPics4 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+}
+
+.tourPics5 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+}
+
+.tourPics6 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+}
+
+.tourPics7 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+}
+
+.tourPics8 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+}
+
+.tourPics9 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+}
+
+.israel-img1,
+.israel-img2,
+.israel-img3,
+.USA-img1,
+.USA-img2,
+.USA-img3,
+.australia-img1,
+.australia-img2,
+.australia-img3,
+.new-Zealand-img1,
+.new-Zealand-img2,
+.new-Zealand-img3,
+.france-img1,
+.france-img2,
+.france-img3,
+.egypt-img1,
+.egypt-img2,
+.egypt-img3,
+.japan-img1,
+.japan-img2,
+.japan-img3,
+.canada-img1,
+.canada-img2,
+.canada-img3,
+.UAE-img1,
+.UAE-img2,
+.UAE-img3 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.israel-img1 {
+  background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+}
+
+.israel-img2 {
+  background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+}
+
+.israel-img3 {
+  background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+}
+
+.USA-img1 {
+  background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+}
+
+.USA-img2 {
+  background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+}
+
+.USA-img3 {
+  background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+}
+
+.australia-img1 {
+  background-image: url(../images/tour/tour-aus/aus-tour-01.jpg);
+}
+
+.australia-img2 {
+  background-image: url(../images/tour/tour-aus/aus-tour-02.jpg);
+}
+
+.australia-img3 {
+  background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
+}
+
+.new-Zealand-img1 {
+  background-image: url(../images/tour/tour-nz/nz-tour-01.jpg);
+}
+
+.new-Zealand-img2 {
+  background-image: url(../images/tour/tour-nz/nz-tour-02.jpg);
+}
+
+.new-Zealand-img3 {
+  background-image: url(../images/tour/tour-nz/nz-tour-03.jpg);
+}
+
+.france-img1 {
+  background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+}
+
+.france-img2 {
+  background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+}
+
+.france-img3 {
+  background-image: url(../images/tour/tour-france/france-tour-03.jpg);
+}
+
+.egypt-img1 {
+  background-image: url(../images/tour/tour-egypt/egypt-tour-01.jpg);
+}
+
+.egypt-img2 {
+  background-image: url(../images/tour/tour-egypt/egypt-tour-02.jpg);
+}
+
+.egypt-img3 {
+  background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg);
+}
+
+.japan-img1 {
+  background-image: url(../images/tour/tour-japan/japan-tour-01.jpg);
+}
+
+.japan-img2 {
+  background-image: url(../images/tour/tour-japan/japan-tour-02.jpg);
+}
+
+.japan-img3 {
+  background-image: url(../images/tour/tour-japan/japan-tour-03.jpg);
+}
+
+.canada-img1 {
+  background-image: url(../images/tour/tour-canada/canada-tour-01.jpg);
+}
+
+.canada-img2 {
+  background-image: url(../images/tour/tour-canada/canada-tour-02.jpg);
+}
+
+.canada-img3 {
+  background-image: url(../images/tour/tour-canada/canada-tour-03.jpg);
+}
+
+.UAE-img1 {
+  background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+}
+
+.UAE-img2 {
+  background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+}
+
+.UAE-img3 {
+  background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
+}
+
+.about {
+  margin-top: 111px;
+  margin-bottom: 180px;
+}
+.about .about-header h1 {
+  font-size: 60px;
+}
+.about .about-header hr {
+  background-color: #000000;
+  border: 1px solid #000000;
+  width: 171px;
+}
+.about .about-client-quotes {
+  margin-top: 107px;
+}
+.about .about-client-quotes .client-quote-title {
+  font-size: 30px;
+}
+.about .about-client-quotes hr {
+  background-color: #000000;
+  border: 1px solid #000000;
+  width: 255px;
+}
+.about .about-client-quotes .client-box {
+  max-width: 722px;
+  height: 150px;
+  margin-top: 37px;
+  margin-bottom: 37px;
+  display: flex;
+  position: relative;
+}
+.about .about-client-quotes .client-box .client-img {
+  width: 260px;
+  height: 150px;
+  margin-right: 21px;
+}
+.about .about-client-quotes .client-box .client-img img {
+  width: 100%;
+  height: 100%;
+}
+.about .about-client-quotes .client-box .client-text {
+  width: 385px;
+  height: 102px;
+  margin-bottom: 30px;
+}
+.about .about-client-quotes .client-box .client-text p {
+  font-size: 16px;
+}
+.about .about-client-quotes .client-box .client-name {
+  color: #79addc;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
