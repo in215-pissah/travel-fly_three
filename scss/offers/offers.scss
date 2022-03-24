@@ -1,0 +1,12 @@
+.spe-Offers {
+  .title-Header {
+    h1 {
+      font-size: 40px;
+      // font-family: ProximaNovaThin;
+    }
+    hr {
+      @include nav-black();
+      width: 200px;
+    }
+  }
+}
