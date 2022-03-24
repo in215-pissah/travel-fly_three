@@ -9,4 +9,22 @@
       width: 200px;
     }
   }
+  .offers-IMG-box {
+    max-width: 200px;
+    height: 287px;
+    background-color: red;
+    margin-top: 35.5px;
+    .offers-img1,
+    .offers-img2 {
+      height: 100%;
+      width: 100%;
+      @include div-images();
+    }
+    .offers-img1 {
+      background-image: url(../images/special-offer-01.jpg);
+    }
+    .offers-img2 {
+      background-image: url(../images/special-offer-02.jpg);
+    }
+  }
 }

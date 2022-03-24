@@ -646,5 +646,25 @@ button a {
   border: 1px solid #000000;
   width: 200px;
 }
+.spe-Offers .offers-IMG-box {
+  max-width: 200px;
+  height: 287px;
+  background-color: red;
+  margin-top: 35.5px;
+}
+.spe-Offers .offers-IMG-box .offers-img1,
+.spe-Offers .offers-IMG-box .offers-img2 {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+.spe-Offers .offers-IMG-box .offers-img1 {
+  background-image: url(../images/special-offer-01.jpg);
+}
+.spe-Offers .offers-IMG-box .offers-img2 {
+  background-image: url(../images/special-offer-02.jpg);
+}
 
 /*# sourceMappingURL=styles.css.map */
