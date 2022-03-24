@@ -62,17 +62,6 @@ footer {
   // background-color: coral;
 }
 
-.title-Header {
-  h1 {
-    font-size: 40px;
-    // font-family: ProximaNovaThin;
-  }
-  hr {
-    @include nav-black();
-    width: 200px;
-  }
-}
-
 // @media screen and (max-width: 1140px) {
 //   .homePictures {
 //     background-color: red;

@@ -53,15 +53,6 @@ footer {
   margin: 0 auto;
 }
 
-.title-Header h1 {
-  font-size: 40px;
-}
-.title-Header hr {
-  background-color: #000000;
-  border: 1px solid #000000;
-  width: 200px;
-}
-
 nav {
   max-width: 980px;
   margin: 0 auto;
@@ -645,6 +636,15 @@ button a {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.spe-Offers .title-Header h1 {
+  font-size: 40px;
+}
+.spe-Offers .title-Header hr {
+  background-color: #000000;
+  border: 1px solid #000000;
+  width: 200px;
 }
 
 /*# sourceMappingURL=styles.css.map */
