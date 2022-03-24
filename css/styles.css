@@ -53,6 +53,15 @@ footer {
   margin: 0 auto;
 }
 
+.title-Header h1 {
+  font-size: 30px;
+}
+.title-Header hr {
+  background-color: #000000;
+  border: 1px solid #000000;
+  width: 171px;
+}
+
 nav {
   max-width: 980px;
   margin: 0 auto;
