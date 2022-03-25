@@ -1,2 +1,15 @@
-.mapbox {
+.mapBox {
+  max-width: 400px;
+  height: 442px;
+  background-color: #79addc;
+  margin-top: 50.5px;
+}
+
+.addressBox {
+  max-width: 400px;
+  height: 161px;
+  margin-top: 24px;
+  p {
+    font-size: 18px;
+  }
 }

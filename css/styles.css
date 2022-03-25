@@ -763,4 +763,20 @@ form .acrBoxes label {
   width: 400px;
 }
 
+.mapBox {
+  max-width: 400px;
+  height: 442px;
+  background-color: #79addc;
+  margin-top: 50.5px;
+}
+
+.addressBox {
+  max-width: 400px;
+  height: 161px;
+  margin-top: 24px;
+}
+.addressBox p {
+  font-size: 18px;
+}
+
 /*# sourceMappingURL=styles.css.map */
