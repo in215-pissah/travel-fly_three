@@ -120,6 +120,51 @@ footer .footer-content {
   }
 }
 
+button {
+  color: #ffffff;
+  background-color: #79addc;
+  border-style: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+}
+button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.readMore {
+  height: 40px;
+  width: 122px;
+}
+
+.learnMore {
+  height: 40px;
+  width: 133px;
+  border-radius: 30px;
+}
+
+.bookNow {
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  margin-left: 40%;
+  margin-bottom: 100px;
+}
+
+.submitBox {
+  color: #ffffff;
+  background-color: #79addc;
+  border-style: none;
+  border-radius: 30px;
+  width: 100%;
+  height: 60.59px;
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
 .homeBanner {
   height: 500px;
   max-width: 1280px;
@@ -220,51 +265,6 @@ form .acrBoxes {
 }
 form .acrBoxes label {
   margin-right: 30px;
-}
-
-button {
-  color: #ffffff;
-  background-color: #79addc;
-  border-style: none;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 15px;
-  font-weight: 800;
-}
-button a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.readMore {
-  height: 40px;
-  width: 122px;
-}
-
-.learnMore {
-  height: 40px;
-  width: 133px;
-  border-radius: 30px;
-}
-
-.bookNow {
-  height: 40px;
-  width: 133px;
-  border-radius: 20px;
-  margin-left: 40%;
-  margin-bottom: 100px;
-}
-
-.submitBox {
-  color: #ffffff;
-  background-color: #79addc;
-  border-style: none;
-  border-radius: 30px;
-  width: 100%;
-  height: 60.59px;
-  margin: 0 auto;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 15px;
-  font-weight: bold;
 }
 
 .tourHero {
