@@ -1,7 +1,10 @@
 .mapBox {
   max-width: 400px;
   height: 442px;
-  background-color: #79addc;
+  // background-color: #79addc;
+  background-image: url(../images/map.jpg);
+  background-position: center;
+  background-size: cover;
   margin-top: 50.5px;
 }
 
