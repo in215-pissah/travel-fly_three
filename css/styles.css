@@ -739,6 +739,7 @@ button a {
 .blog-Section .blog-Section-Row {
   width: 900px;
   min-height: 300px;
+  margin-bottom: 100px;
 }
 .blog-Section .blog-Section-Row .blog-IMG-box {
   max-width: 900px;
