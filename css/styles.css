@@ -755,5 +755,11 @@ button a {
   margin-top: 20px;
   font-size: 15px;
 }
+.blog-Section .blog-Section-Row .small-text {
+  color: #79addc;
+  font-size: 13px;
+  margin-top: 11px;
+  width: 400px;
+}
 
 /*# sourceMappingURL=styles.css.map */
