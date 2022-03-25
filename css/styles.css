@@ -769,7 +769,7 @@ form .acrBoxes label {
 }
 
 .contact-Wrap {
-  max-width: 980px;
+  max-width: 100%;
   min-height: 100%;
   display: flex;
   align-items: flex-start;
@@ -787,7 +787,6 @@ form .acrBoxes label {
 
 .contact-Form {
   margin: 0;
-  width: 530px;
   min-height: 442px;
 }
 .contact-Form input,
@@ -799,7 +798,7 @@ form .acrBoxes label {
 }
 .contact-Form .contactBox1,
 .contact-Form .contactBox2 {
-  width: 529px;
+  width: 100%;
   background-color: #f5f5f5;
 }
 .contact-Form .contactBox1 {

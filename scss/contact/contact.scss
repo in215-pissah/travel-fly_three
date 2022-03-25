@@ -1,5 +1,5 @@
 .contact-Wrap {
-  max-width: $content-width;
+  max-width: 100%;
   min-height: 100%;
   display: flex;
   align-items: flex-start;
@@ -19,9 +19,8 @@
 
 .contact-Form {
   margin: 0;
-  width: 530px;
+
   min-height: 442px;
-  // background-color: red;
   input,
   label {
     font-family: "Gill Sans MT";
@@ -32,7 +31,7 @@
 
   .contactBox1,
   .contactBox2 {
-    width: 529px;
+    width: 100%;
     background-color: #f5f5f5;
   }
   .contactBox1 {
