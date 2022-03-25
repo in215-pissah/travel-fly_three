@@ -7,7 +7,12 @@ nav {
   justify-content: space-between;
   // width: 950px;
   bottom: 20.5px;
-
+  @media screen and (max-width: 546px) {
+    .links {
+      margin-left: 10px;
+      justify-content: space-evenly;
+    }
+  }
   .links {
     .logo {
       width: 136px;
