@@ -1,19 +1,25 @@
-.spe-Offers {
-  .title-Header {
-    h1 {
-      font-size: 40px;
-      // font-family: ProximaNovaThin;
-    }
-    hr {
-      @include nav-black();
-      width: 200px;
-    }
+.title-Header {
+  h1 {
+    font-size: 40px;
+    // font-family: ProximaNovaThin;
   }
+  hr {
+    @include nav-black();
+    width: 200px;
+  }
+}
+.spe-Offers-Section {
+  height: 287px;
+  width: 100%;
+  margin-top: 35.5px;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: flex-start;
+
   .offers-IMG-box {
-    max-width: 200px;
-    height: 287px;
-    background-color: red;
-    margin-top: 35.5px;
+    height: 100%;
+    width: 200px;
+    margin-right: 20px;
     .offers-img1,
     .offers-img2 {
       height: 100%;
@@ -25,6 +31,19 @@
     }
     .offers-img2 {
       background-image: url(../images/special-offer-02.jpg);
+    }
+  }
+  .sectionText {
+    p {
+      width: 290px;
+      height: 100%;
+    }
+    span {
+      color: #ff4500;
+      font-size: 25px;
+    }
+    .learnMore {
+      margin-top: 30px;
     }
   }
 }
